@@ -59,4 +59,5 @@ const sum = array => array.reduce((a, b) => a + b, 0);
 const findUserById = (array, id) => array.find(user => user.id === id).name;
 
 
+
 module.exports = {multiplyByTwo, filterNameStartByA, sum, findUserById};
