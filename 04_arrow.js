@@ -21,6 +21,6 @@ let arrow1 = () => {
  *   - le mot clée "return" est interdis
  */
 
-let arrow2 = () => 1;
+let arrow2 = (num) => num + 1;
 
 module.exports = {arrow1, arrow2};

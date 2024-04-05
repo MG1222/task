@@ -5,7 +5,12 @@
  * utilisez new Promise
  */
 
-const sleep = () => {
+sleep = () => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve();
+        }, 2000);
+    });
 
 };
 
